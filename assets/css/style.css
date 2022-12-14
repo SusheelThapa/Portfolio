@@ -92,3 +92,70 @@ header>div>div:nth-child(2) ul li {
     cursor: pointer;
     color: indianred;
 }
+
+/* Introudction section */
+
+#introduction {
+    margin-left: 15%;
+    margin-right: 15%;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    padding: 1rem;
+
+    height: 50%;
+
+    display: grid;
+    grid-template-areas:
+        "a b"
+        "c d";
+
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+
+    grid-gap: 10px 10px;
+}
+
+#introduction div:nth-child(1) {
+    grid-area: a;
+    font-size: 3rem;
+}
+
+
+#introduction div:nth-child(2) {
+    grid-area: c;
+
+    letter-spacing: 0.5px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+#introduction div:nth-child(3) {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+#introduction div:nth-child(4) {
+    grid-area: d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introduction div:nth-child(4) img{
+    grid-area: d;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#introduction span {
+    display: block;
+    color: rgb(68, 255, 0);
+}
