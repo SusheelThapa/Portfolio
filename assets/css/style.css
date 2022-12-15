@@ -6,6 +6,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 /* Header Section */
 header {
     height: 60vh;
@@ -435,6 +436,10 @@ headera:visited {
     border-left:dotted white .01px;
     border-top: dotted white .01px;
 
+}
+.project a:link{
+    text-decoration: none;
+    color: white;
 }
 
 .project h2 {
