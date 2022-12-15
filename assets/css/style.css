@@ -403,3 +403,14 @@ headera:visited {
 
     cursor: pointer;
 }
+
+/* Footer section */
+
+footer {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
