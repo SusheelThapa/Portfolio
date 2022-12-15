@@ -96,12 +96,9 @@ header>div>div:nth-child(2) ul li {
 /* Introudction section */
 
 #introduction {
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 5rem 20rem;
 
     background-color: rgba(255, 255, 255, 0.8);
-
-    padding: 1rem;
 
     height: 50%;
 
@@ -148,7 +145,8 @@ header>div>div:nth-child(2) ul li {
     justify-content: center;
     align-items: center;
 }
-#introduction div:nth-child(4) img{
+
+#introduction div:nth-child(4) img {
     grid-area: d;
     border-radius: 50%;
     width: 250px;
@@ -158,4 +156,47 @@ header>div>div:nth-child(2) ul li {
 #introduction span {
     display: block;
     color: rgb(68, 255, 0);
+}
+
+/* Overview section */
+#overview {
+    padding: 4rem 10rem;
+
+    background-color: #000000;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+}
+
+.overview-icons {
+    font-size: 5rem;
+    color: #5ee82c;
+}
+
+#overview div {
+    margin: 1rem;
+}
+
+#overview h1 {
+    font-size: 2rem;
+}
+
+#overview p {
+    margin-top: 10px;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+#overview span {
+    display: block;
+}
+
+#overview a {
+    text-decoration: none;
+    color: #5ee82c;
 }
