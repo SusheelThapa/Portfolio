@@ -13,8 +13,9 @@ header {
     background-image: url("../img/header-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+
 
 header nav {
     height: 20%;
@@ -93,6 +94,15 @@ header>div>div:nth-child(2) ul li {
     color: indianred;
 }
 
+header>div>div:nth-child(2) a:link,
+header>div>div:nth-child(2) a:visited {
+    color: indianred;
+}
+
+headera:visited {
+    color: white;
+}
+
 /* Introudction section */
 
 #introduction {
@@ -112,6 +122,8 @@ header>div>div:nth-child(2) ul li {
 
     grid-gap: 10px 10px;
 }
+
+
 
 #introduction div:nth-child(1) {
     grid-area: a;
@@ -157,6 +169,7 @@ header>div>div:nth-child(2) ul li {
     display: block;
     color: rgb(68, 255, 0);
 }
+
 
 /* Overview section */
 #overview {
