@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Header Section */
+header {
+    height: 60vh;
+
+    background-image: url("../img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:visited,
+header a:link {
+    color: white;
+}
+
+header nav {
+    height: 20%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav>ul {
+    display: flex;
+}
+
+header nav>ul li {
+    margin: 20px;
+    list-style-type: none;
+
+    font-weight: 600;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+
+}
+
+header nav button {
+    margin: 0.5rem;
+    margin-right: 2rem;
+    padding: .8rem;
+
+    border: solid transparent 1px;
+    border-radius: 1rem;
+
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+
+    background-color: rgb(0, 110, 255);
+    color: white
+}
+
+header>div {
+    display: flex;
+
+    height: 80%;
+    color: white;
+
+}
+
+header>div div:nth-child(1) {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: 1px;
+}
+
+header>div div:nth-child(1) h1 {
+    margin-bottom: 10px;
+    font-size: 6rem;
+}
+
+header>div div:nth-child(1) h2 {
+    font-size: 4rem;
+    font-weight: 500;
+
+    color: #5ee82c;
+}
+
+header>div div:nth-child(2) {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+
+
+header>div>div:nth-child(2) ul li {
+    list-style-type: none;
+    margin-top: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+header>div>div:nth-child(2) a:link,
+header>div>div:nth-child(2) a:visited {
+    color: white;
+}
+
+headera:visited {
+    color: white;
+}
+
+/* Introudction section */
+
+#introduction {
+    padding: 5rem 20rem;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    height: 50%;
+
+    display: grid;
+    grid-template-areas:
+        "a b"
+        "c d";
+
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+
+    grid-gap: 10px 10px;
+}
+
+
+
+#introduction div:nth-child(1) {
+    grid-area: a;
+    font-size: 3rem;
+}
+
+
+#introduction div:nth-child(2) {
+    grid-area: c;
+
+    letter-spacing: 0.5px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+#introduction div:nth-child(3) {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+#introduction div:nth-child(4) {
+    grid-area: d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction div:nth-child(4) img {
+    grid-area: d;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#introduction span {
+    display: block;
+    color: rgb(68, 255, 0);
+}
+
+
+/* Overview section */
+#overview {
+    padding: 4rem 10rem;
+
+    background-color: #000000;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+}
+
+.overview-icons {
+    font-size: 5rem;
+    color: #5ee82c;
+}
+
+#overview div {
+    margin: 1rem;
+}
+
+#overview h1 {
+    font-size: 2rem;
+}
+
+#overview p {
+    margin-top: 10px;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+#overview span {
+    display: block;
+}
+
+#overview a {
+    text-decoration: none;
+    color: #5ee82c;
+}
+
+/* Programming Skill section */
+#skill {
+    padding: 5rem 10rem;
+    display: flex;
+}
+
+#skill>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+#skill>div:nth-child(2) {
+    display: grid;
+
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-items: center;
+
+    grid-row-gap: 2rem;
+}
+
+.programming-languages {
+    margin-top: 10px;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programming-languages:nth-child(1) {
+    color: red;
+}
+
+.programming-languages:nth-child(2) {
+    color: rgb(0, 183, 255);
+}
+
+.programming-languages:nth-child(3) {
+    color: greenyellow;
+}
+
+.programming-languages:nth-child(4) {
+    color: rgb(0, 183, 255);
+}
+
+#skill h1 {
+    margin-bottom: 2rem;
+
+    color: #5ee82c;
+    font-size: 3rem;
+}
+
+#skill p {
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+/* Languages Section - Not Programming */
+
+#lang {
+    padding: 4rem 20rem;
+
+    background-color: black;
+}
+
+#lang>h1 {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: #5ee82c;
+    margin-bottom: 3rem;
+}
+
+#lang>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.languages {
+    margin-left: 20px;
+
+    width: 40%;
+    color: whitesmoke;
+}
+
+.languages h2 {
+    font-size: 2rem;
+    margin-bottom: 1.15rem;
+    font-weight: normal;
+}
+
+.languages p {
+    color: #5ee82c;
+}
+
+
+/* Experience Section */
+
+#experience {
+    margin: 0 10%;
+}
+
+#experience>h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #5ee82c;
+}
+
+#experience>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#experience>div div {
+
+    width: 50%;
+}
+
+#experience-education {
+    margin-left: 10%;
+    text-align: left;
+
+    border-right: solid black 2px;
+}
+
+#experience-education p {
+    border-radius: .5rem;
+    border-left: solid #dfd4d4 4px;
+}
+
+#experience-work {
+    margin-right: 10%;
+
+    text-align: right;
+    border-left: solid black 2px;
+
+}
+
+#experience h2 {
+    color: #5ee82c;
+    font-size: 2rem;
+}
+
+#experience p {
+    margin-top: 2.3rem;
+}
+
+#experience-education span {
+    margin: 5px;
+    display: block;
+}
+
+/* Project Section */
+#projects {
+    margin-top: 2rem;
+    padding: 2rem 5%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#projects>h1 {
+    font-size: 3rem;
+    color: #5ee82c;
+}
+
+#projects>div {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-gap: 10px 10px;
+}
+
+
+.project {
+    margin: 20px;
+
+    width: 80%;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 3rem;
+
+    box-shadow: inset -5px -5px white;
+    cursor: pointer;
+
+    border-left:dotted white .01px;
+    border-top: dotted white .01px;
+
+}
+.project a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.project h2 {
+    padding: .5rem;
+
+    color: #5ee82c;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-size: 1.8rem;
+}
+
+.project p {
+    margin-top: 1rem;
+    padding: .5rem;
+
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+/* Contact Section */
+#contact {
+    margin: 3rem 0;
+    padding: 5rem 10rem;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact>div {
+    width: 50%;
+    height: inherit;
+}
+
+#contact>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contact h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #5ee82c;
+}
+
+#contact p {
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+}
+
+#contact-form>form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form>form input {
+    margin: 0.8rem;
+    padding: 0.8rem;
+    width: 80%;
+    bottom: 0;
+    border-radius: 1.5rem;
+    border: solid black 1px;
+    background-color: #eee;
+    font-size: 1.15rem;
+
+    box-shadow: none;
+
+    text-align: center;
+}
+
+#contact-form>form input:focus {
+    outline: solid rgb(0, 132, 255) 4px;
+    border: solid transparent 1px;
+}
+
+#contact-form>form input:nth-child(3) {
+    height: 180px
+}
+
+#contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 40%;
+    border-color: transparent;
+    background-color: rgb(0, 132, 255);
+
+    color: white;
+
+    font-weight: 600;
+
+    font-size: 1.5rem;
+
+    border-radius: 2rem;
+
+    cursor: pointer;
+}
+
+/* Footer section */
+
+footer {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
