@@ -15,7 +15,14 @@ header {
     background-size: cover;
 }
 
+header a {
+    text-decoration: none;
+}
 
+header a:visited,
+header a:link {
+    color: white;
+}
 
 header nav {
     height: 20%;
