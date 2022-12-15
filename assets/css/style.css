@@ -272,3 +272,43 @@ headera:visited {
     letter-spacing: 1px;
     line-height: 1.5rem;
 }
+
+/* Languages Section - Not Programming */
+
+#lang {
+    padding: 4rem 20rem;
+
+    background-color: black;
+}
+
+#lang>h1 {
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: #5ee82c;
+    margin-bottom: 3rem;
+}
+
+#lang>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.languages {
+    margin-left: 20px;
+
+    width: 40%;
+    color: whitesmoke;
+}
+
+.languages h2 {
+    font-size: 2rem;
+    margin-bottom: 1.15rem;
+    font-weight: normal;
+}
+
+.languages p {
+    color: #5ee82c;
+}
