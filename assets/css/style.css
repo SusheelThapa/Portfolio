@@ -340,8 +340,6 @@ headera:visited {
 
 #experience {
     margin: 0 10%;
-    /* border: solid red 5px; */
-
 }
 
 #experience>h1 {
@@ -364,6 +362,8 @@ headera:visited {
 #experience-education {
     margin-left: 10%;
     text-align: left;
+
+    border-right: solid black 2px;
 }
 
 #experience-education p {
@@ -375,6 +375,8 @@ headera:visited {
     margin-right: 10%;
 
     text-align: right;
+    border-left: solid black 2px;
+
 }
 
 #experience h2 {
@@ -389,6 +391,71 @@ headera:visited {
 #experience-education span {
     margin: 5px;
     display: block;
+}
+
+/* Project Section */
+#projects {
+    margin-top: 2rem;
+    padding: 2rem 5%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#projects>h1 {
+    font-size: 3rem;
+    color: #5ee82c;
+}
+
+#projects>div {
+    padding: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-gap: 10px 10px;
+}
+
+
+.project {
+    margin: 20px;
+
+    width: 80%;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 3rem;
+
+    box-shadow: inset -5px -5px white;
+    cursor: pointer;
+
+    border-left:dotted white .01px;
+    border-top: dotted white .01px;
+
+}
+
+.project h2 {
+    padding: .5rem;
+
+    color: #5ee82c;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-size: 1.8rem;
+}
+
+.project p {
+    margin-top: 1rem;
+    padding: .5rem;
+
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
 }
 
 /* Contact Section */
@@ -449,7 +516,7 @@ headera:visited {
 }
 
 #contact-form>form input:focus {
-    outline: solid blue 4px;
+    outline: solid rgb(0, 132, 255) 4px;
     border: solid transparent 1px;
 }
 
