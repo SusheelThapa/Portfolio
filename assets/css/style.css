@@ -320,6 +320,62 @@ headera:visited {
     color: #5ee82c;
 }
 
+
+/* Experience Section */
+
+#experience {
+    margin: 0 10%;
+    /* border: solid red 5px; */
+
+}
+
+#experience>h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #5ee82c;
+}
+
+#experience>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#experience>div div {
+
+    width: 50%;
+}
+
+#experience-education {
+    margin-left: 10%;
+    text-align: left;
+}
+
+#experience-education p {
+    border-radius: .5rem;
+    border-left: solid #dfd4d4 4px;
+}
+
+#experience-work {
+    margin-right: 10%;
+
+    text-align: right;
+}
+
+#experience h2 {
+    color: #5ee82c;
+    font-size: 2rem;
+}
+
+#experience p {
+    margin-top: 2.3rem;
+}
+
+#experience-education span {
+    margin: 5px;
+    display: block;
+}
+
 /* Contact Section */
 #contact {
     margin: 3rem 0;
