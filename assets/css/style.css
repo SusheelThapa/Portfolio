@@ -8,7 +8,7 @@
 
 /* Header Section */
 header {
-    height: 40vh;
+    height: 60vh;
 
     background-image: url("../img/header-background.jpg");
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ header nav>ul li {
     list-style-type: none;
 
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.75rem;
     letter-spacing: 1px;
 
 }
@@ -91,12 +91,12 @@ header>div>div:nth-child(2) ul li {
     list-style-type: none;
     margin-top: 5px;
     cursor: pointer;
-    color: indianred;
+    color: white;
 }
 
 header>div>div:nth-child(2) a:link,
 header>div>div:nth-child(2) a:visited {
-    color: indianred;
+    color: white;
 }
 
 headera:visited {
@@ -212,4 +212,63 @@ headera:visited {
 #overview a {
     text-decoration: none;
     color: #5ee82c;
+}
+
+/* Programming Skill section */
+#skill {
+    padding: 5rem 10rem;
+    display: flex;
+}
+
+#skill>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+#skill>div:nth-child(2) {
+    display: grid;
+
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-items: center;
+
+    grid-row-gap: 2rem;
+}
+
+.programming-languages {
+    margin-top: 10px;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.programming-languages:nth-child(1) {
+    color: red;
+}
+
+.programming-languages:nth-child(2) {
+    color: rgb(0, 183, 255);
+}
+
+.programming-languages:nth-child(3) {
+    color: greenyellow;
+}
+
+.programming-languages:nth-child(4) {
+    color: rgb(0, 183, 255);
+}
+
+#skill h1 {
+    margin-bottom: 2rem;
+
+    color: #5ee82c;
+    font-size: 3rem;
+}
+
+#skill p {
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
 }
